@@ -1,0 +1,3 @@
+[submodule "lib/CsvToSqlite"]
+	path = lib/CsvToSqlite
+	url = https://github.com/dodikk/CsvToSqlite.git
