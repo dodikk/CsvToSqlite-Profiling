@@ -24,6 +24,8 @@
 		7EEA44611777539C00CE81F7 /* libESLocale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEA44501777538300CE81F7 /* libESLocale.a */; };
 		7EEA4462177753A300CE81F7 /* libObjcScopedGuard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEA445C1777538B00CE81F7 /* libObjcScopedGuard.a */; };
 		7EEA4468177754A400CE81F7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEA4467177754A400CE81F7 /* libsqlite3.dylib */; };
+		7EEA446B1777553500CE81F7 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEA44691777553500CE81F7 /* libc++.dylib */; };
+		7EEA446C1777553500CE81F7 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEA446A1777553500CE81F7 /* libstdc++.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,6 +145,8 @@
 		7EEA44491777538300CE81F7 /* ESLocale.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ESLocale.xcodeproj; path = ../../lib/ESLocale/ESLocale.xcodeproj; sourceTree = "<group>"; };
 		7EEA44551777538B00CE81F7 /* ObjcScopedGuard.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ObjcScopedGuard.xcodeproj; path = ../../lib/ObjcScopedGuard/ObjcScopedGuard/ObjcScopedGuard.xcodeproj; sourceTree = "<group>"; };
 		7EEA4467177754A400CE81F7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		7EEA44691777553500CE81F7 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		7EEA446A1777553500CE81F7 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EEA446B1777553500CE81F7 /* libc++.dylib in Frameworks */,
+				7EEA446C1777553500CE81F7 /* libstdc++.dylib in Frameworks */,
 				7EEA4468177754A400CE81F7 /* libsqlite3.dylib in Frameworks */,
 				7EEA4462177753A300CE81F7 /* libObjcScopedGuard.a in Frameworks */,
 				7EEA44611777539C00CE81F7 /* libESLocale.a in Frameworks */,
@@ -185,6 +191,8 @@
 		7EA7B0481776C8A500AC6E3D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7EEA44691777553500CE81F7 /* libc++.dylib */,
+				7EEA446A1777553500CE81F7 /* libstdc++.dylib */,
 				7EEA4467177754A400CE81F7 /* libsqlite3.dylib */,
 				7EA7B0491776C8A500AC6E3D /* UIKit.framework */,
 				7EA7B04B1776C8A500AC6E3D /* Foundation.framework */,
