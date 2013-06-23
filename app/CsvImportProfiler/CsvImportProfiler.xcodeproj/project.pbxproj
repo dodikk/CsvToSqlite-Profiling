@@ -19,7 +19,106 @@
 		7EA7B0631776C8A500AC6E3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA7B0621776C8A500AC6E3D /* ViewController.m */; };
 		7EA7B0661776C8A500AC6E3D /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EA7B0641776C8A500AC6E3D /* ViewController_iPhone.xib */; };
 		7EA7B0691776C8A500AC6E3D /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EA7B0671776C8A500AC6E3D /* ViewController_iPad.xib */; };
+		7EEA44321777529800CE81F7 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEA44311777529800CE81F7 /* GHUnitIOS.framework */; };
+		7EEA4446177752B600CE81F7 /* libCsvToSqlite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEA443F177752A000CE81F7 /* libCsvToSqlite.a */; };
+		7EEA44611777539C00CE81F7 /* libESLocale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEA44501777538300CE81F7 /* libESLocale.a */; };
+		7EEA4462177753A300CE81F7 /* libObjcScopedGuard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEA445C1777538B00CE81F7 /* libObjcScopedGuard.a */; };
+		7EEA4468177754A400CE81F7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEA4467177754A400CE81F7 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EEA443E177752A000CE81F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EEA44331777529F00CE81F7 /* CsvToSqlite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7E31DEBF153707280043B5BE;
+			remoteInfo = CsvToSqlite;
+		};
+		7EEA4440177752A000CE81F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EEA44331777529F00CE81F7 /* CsvToSqlite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7E31DECF153707280043B5BE;
+			remoteInfo = CsvToSqliteTests;
+		};
+		7EEA4442177752A000CE81F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EEA44331777529F00CE81F7 /* CsvToSqlite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7E195AC7153713440050C635;
+			remoteInfo = "CsvToSqliteTests-CI";
+		};
+		7EEA4444177752A000CE81F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EEA44331777529F00CE81F7 /* CsvToSqlite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7E9D9B7D1611B6CE0074876B;
+			remoteInfo = CsvProfiler;
+		};
+		7EEA4447177752BB00CE81F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EEA44331777529F00CE81F7 /* CsvToSqlite.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E31DEBE153707280043B5BE;
+			remoteInfo = CsvToSqlite;
+		};
+		7EEA444F1777538300CE81F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EEA44491777538300CE81F7 /* ESLocale.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7ED3E57715400C1E008268CF;
+			remoteInfo = ESLocale;
+		};
+		7EEA44511777538300CE81F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EEA44491777538300CE81F7 /* ESLocale.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7ED3E58715400C1E008268CF;
+			remoteInfo = ESLocaleTests;
+		};
+		7EEA44531777538300CE81F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EEA44491777538300CE81F7 /* ESLocale.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7ED3E5B515400C8E008268CF;
+			remoteInfo = "ESLocaleTests-CI";
+		};
+		7EEA445B1777538B00CE81F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EEA44551777538B00CE81F7 /* ObjcScopedGuard.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7E8B6C4815388BD500435EDA;
+			remoteInfo = ObjcScopedGuard;
+		};
+		7EEA445D1777538B00CE81F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EEA44551777538B00CE81F7 /* ObjcScopedGuard.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7E8B6C5815388BD500435EDA;
+			remoteInfo = ObjcScopedGuardTests;
+		};
+		7EEA445F1777538B00CE81F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EEA44551777538B00CE81F7 /* ObjcScopedGuard.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7E8B6C8715388E9400435EDA;
+			remoteInfo = "ObjcScopedGuardTests-CI";
+		};
+		7EEA4463177753AB00CE81F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EEA44551777538B00CE81F7 /* ObjcScopedGuard.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E8B6C4715388BD500435EDA;
+			remoteInfo = ObjcScopedGuard;
+		};
+		7EEA4465177753B200CE81F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EEA44491777538300CE81F7 /* ESLocale.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ED3E57615400C1E008268CF;
+			remoteInfo = ESLocale;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7EA7B0461776C8A500AC6E3D /* CsvImportProfiler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CsvImportProfiler.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +138,11 @@
 		7EA7B0621776C8A500AC6E3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7EA7B0651776C8A500AC6E3D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		7EA7B0681776C8A500AC6E3D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		7EEA44311777529800CE81F7 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = ../../lib/GHUnitIOS.framework; sourceTree = "<group>"; };
+		7EEA44331777529F00CE81F7 /* CsvToSqlite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CsvToSqlite.xcodeproj; path = ../../lib/CsvToSqlite/CsvToSqlite.xcodeproj; sourceTree = "<group>"; };
+		7EEA44491777538300CE81F7 /* ESLocale.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ESLocale.xcodeproj; path = ../../lib/ESLocale/ESLocale.xcodeproj; sourceTree = "<group>"; };
+		7EEA44551777538B00CE81F7 /* ObjcScopedGuard.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ObjcScopedGuard.xcodeproj; path = ../../lib/ObjcScopedGuard/ObjcScopedGuard/ObjcScopedGuard.xcodeproj; sourceTree = "<group>"; };
+		7EEA4467177754A400CE81F7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,9 +150,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EEA4468177754A400CE81F7 /* libsqlite3.dylib in Frameworks */,
+				7EEA4462177753A300CE81F7 /* libObjcScopedGuard.a in Frameworks */,
+				7EEA44611777539C00CE81F7 /* libESLocale.a in Frameworks */,
+				7EEA4446177752B600CE81F7 /* libCsvToSqlite.a in Frameworks */,
 				7EA7B04A1776C8A500AC6E3D /* UIKit.framework in Frameworks */,
 				7EA7B04C1776C8A500AC6E3D /* Foundation.framework in Frameworks */,
 				7EA7B04E1776C8A500AC6E3D /* CoreGraphics.framework in Frameworks */,
+				7EEA44321777529800CE81F7 /* GHUnitIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +167,7 @@
 		7EA7B03D1776C8A500AC6E3D = {
 			isa = PBXGroup;
 			children = (
+				7EEA44301777528B00CE81F7 /* lib */,
 				7EA7B04F1776C8A500AC6E3D /* CsvImportProfiler */,
 				7EA7B0481776C8A500AC6E3D /* Frameworks */,
 				7EA7B0471776C8A500AC6E3D /* Products */,
@@ -75,6 +185,7 @@
 		7EA7B0481776C8A500AC6E3D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7EEA4467177754A400CE81F7 /* libsqlite3.dylib */,
 				7EA7B0491776C8A500AC6E3D /* UIKit.framework */,
 				7EA7B04B1776C8A500AC6E3D /* Foundation.framework */,
 				7EA7B04D1776C8A500AC6E3D /* CoreGraphics.framework */,
@@ -110,6 +221,48 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7EEA44301777528B00CE81F7 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				7EEA44551777538B00CE81F7 /* ObjcScopedGuard.xcodeproj */,
+				7EEA44491777538300CE81F7 /* ESLocale.xcodeproj */,
+				7EEA44331777529F00CE81F7 /* CsvToSqlite.xcodeproj */,
+				7EEA44311777529800CE81F7 /* GHUnitIOS.framework */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		7EEA44341777529F00CE81F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EEA443F177752A000CE81F7 /* libCsvToSqlite.a */,
+				7EEA4441177752A000CE81F7 /* CsvToSqliteTests.octest */,
+				7EEA4443177752A000CE81F7 /* CsvToSqliteTests copy.octest */,
+				7EEA4445177752A000CE81F7 /* CsvProfiler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EEA444A1777538300CE81F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EEA44501777538300CE81F7 /* libESLocale.a */,
+				7EEA44521777538300CE81F7 /* ESLocaleTests.octest */,
+				7EEA44541777538300CE81F7 /* ESLocaleTests copy.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EEA44561777538B00CE81F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EEA445C1777538B00CE81F7 /* libObjcScopedGuard.a */,
+				7EEA445E1777538B00CE81F7 /* ObjcScopedGuardTests.octest */,
+				7EEA44601777538B00CE81F7 /* ObjcScopedGuardTests copy.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -124,6 +277,9 @@
 			buildRules = (
 			);
 			dependencies = (
+				7EEA4466177753B200CE81F7 /* PBXTargetDependency */,
+				7EEA4464177753AB00CE81F7 /* PBXTargetDependency */,
+				7EEA4448177752BB00CE81F7 /* PBXTargetDependency */,
 			);
 			name = CsvImportProfiler;
 			productName = CsvImportProfiler;
@@ -149,12 +305,99 @@
 			mainGroup = 7EA7B03D1776C8A500AC6E3D;
 			productRefGroup = 7EA7B0471776C8A500AC6E3D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7EEA44341777529F00CE81F7 /* Products */;
+					ProjectRef = 7EEA44331777529F00CE81F7 /* CsvToSqlite.xcodeproj */;
+				},
+				{
+					ProductGroup = 7EEA444A1777538300CE81F7 /* Products */;
+					ProjectRef = 7EEA44491777538300CE81F7 /* ESLocale.xcodeproj */;
+				},
+				{
+					ProductGroup = 7EEA44561777538B00CE81F7 /* Products */;
+					ProjectRef = 7EEA44551777538B00CE81F7 /* ObjcScopedGuard.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7EA7B0451776C8A500AC6E3D /* CsvImportProfiler */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7EEA443F177752A000CE81F7 /* libCsvToSqlite.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCsvToSqlite.a;
+			remoteRef = 7EEA443E177752A000CE81F7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7EEA4441177752A000CE81F7 /* CsvToSqliteTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CsvToSqliteTests.octest;
+			remoteRef = 7EEA4440177752A000CE81F7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7EEA4443177752A000CE81F7 /* CsvToSqliteTests copy.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "CsvToSqliteTests copy.octest";
+			remoteRef = 7EEA4442177752A000CE81F7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7EEA4445177752A000CE81F7 /* CsvProfiler.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CsvProfiler.app;
+			remoteRef = 7EEA4444177752A000CE81F7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7EEA44501777538300CE81F7 /* libESLocale.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libESLocale.a;
+			remoteRef = 7EEA444F1777538300CE81F7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7EEA44521777538300CE81F7 /* ESLocaleTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ESLocaleTests.octest;
+			remoteRef = 7EEA44511777538300CE81F7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7EEA44541777538300CE81F7 /* ESLocaleTests copy.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ESLocaleTests copy.octest";
+			remoteRef = 7EEA44531777538300CE81F7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7EEA445C1777538B00CE81F7 /* libObjcScopedGuard.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libObjcScopedGuard.a;
+			remoteRef = 7EEA445B1777538B00CE81F7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7EEA445E1777538B00CE81F7 /* ObjcScopedGuardTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ObjcScopedGuardTests.octest;
+			remoteRef = 7EEA445D1777538B00CE81F7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7EEA44601777538B00CE81F7 /* ObjcScopedGuardTests copy.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ObjcScopedGuardTests copy.octest";
+			remoteRef = 7EEA445F1777538B00CE81F7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		7EA7B0441776C8A500AC6E3D /* Resources */ = {
@@ -184,6 +427,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EEA4448177752BB00CE81F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CsvToSqlite;
+			targetProxy = 7EEA4447177752BB00CE81F7 /* PBXContainerItemProxy */;
+		};
+		7EEA4464177753AB00CE81F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjcScopedGuard;
+			targetProxy = 7EEA4463177753AB00CE81F7 /* PBXContainerItemProxy */;
+		};
+		7EEA4466177753B200CE81F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ESLocale;
+			targetProxy = 7EEA4465177753B200CE81F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7EA7B0521776C8A500AC6E3D /* InfoPlist.strings */ = {
@@ -238,8 +499,16 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				HEADER_SEARCH_PATHS = (
+					../../lib,
+					.,
+					../../lib/ESLocale,
+					../../lib/ObjcScopedGuard/ObjcScopedGuard/,
+					../../lib/CsvToSqlite,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-all_load";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -263,8 +532,16 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				HEADER_SEARCH_PATHS = (
+					../../lib,
+					.,
+					../../lib/ESLocale,
+					../../lib/ObjcScopedGuard/ObjcScopedGuard/,
+					../../lib/CsvToSqlite,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-all_load";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -274,6 +551,10 @@
 		7EA7B06D1776C8A500AC6E3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../lib\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CsvImportProfiler/CsvImportProfiler-Prefix.pch";
 				INFOPLIST_FILE = "CsvImportProfiler/CsvImportProfiler-Info.plist";
@@ -285,6 +566,10 @@
 		7EA7B06E1776C8A500AC6E3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../lib\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CsvImportProfiler/CsvImportProfiler-Prefix.pch";
 				INFOPLIST_FILE = "CsvImportProfiler/CsvImportProfiler-Info.plist";
@@ -312,6 +597,7 @@
 				7EA7B06E1776C8A500AC6E3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
