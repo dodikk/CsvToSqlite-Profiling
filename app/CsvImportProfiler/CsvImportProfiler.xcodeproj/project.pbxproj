@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E84B59B17784186001F1B12 /* libESDatabaseWrapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E84B58D17784175001F1B12 /* libESDatabaseWrapper.a */; };
+		7E84B59C1778418C001F1B12 /* libFMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E84B59A1778417B001F1B12 /* libFMDB.a */; };
 		7EA7B04A1776C8A500AC6E3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA7B0491776C8A500AC6E3D /* UIKit.framework */; };
 		7EA7B04C1776C8A500AC6E3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA7B04B1776C8A500AC6E3D /* Foundation.framework */; };
 		7EA7B04E1776C8A500AC6E3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA7B04D1776C8A500AC6E3D /* CoreGraphics.framework */; };
@@ -29,6 +31,41 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7E84B58C17784175001F1B12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E84B58517784175001F1B12 /* ESDatabaseWrapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7E6A36BD160084F000F4CE84;
+			remoteInfo = ESDatabaseWrapper;
+		};
+		7E84B5971778417B001F1B12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E84B5921778417B001F1B12 /* fmdb.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DD76FA10486AA7600D96B5E;
+			remoteInfo = fmdb;
+		};
+		7E84B5991778417B001F1B12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E84B5921778417B001F1B12 /* fmdb.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE4290EF12B42F870088BD94;
+			remoteInfo = FMDB;
+		};
+		7E84B59D17784198001F1B12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E84B58517784175001F1B12 /* ESDatabaseWrapper.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E6A36BC160084F000F4CE84;
+			remoteInfo = ESDatabaseWrapper;
+		};
+		7E84B59F17784198001F1B12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E84B5921778417B001F1B12 /* fmdb.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4290EE12B42F870088BD94;
+			remoteInfo = FMDB;
+		};
 		7EEA443E177752A000CE81F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7EEA44331777529F00CE81F7 /* CsvToSqlite.xcodeproj */;
@@ -123,6 +160,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E84B58517784175001F1B12 /* ESDatabaseWrapper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ESDatabaseWrapper.xcodeproj; path = ../../lib/ESDatabaseWrapper/ESDatabaseWrapper.xcodeproj; sourceTree = "<group>"; };
+		7E84B5921778417B001F1B12 /* fmdb.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = fmdb.xcodeproj; path = ../../lib/fmdb/fmdb.xcodeproj; sourceTree = "<group>"; };
 		7EA7B0461776C8A500AC6E3D /* CsvImportProfiler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CsvImportProfiler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA7B0491776C8A500AC6E3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7EA7B04B1776C8A500AC6E3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -154,6 +193,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E84B59C1778418C001F1B12 /* libFMDB.a in Frameworks */,
+				7E84B59B17784186001F1B12 /* libESDatabaseWrapper.a in Frameworks */,
 				7EEA446B1777553500CE81F7 /* libc++.dylib in Frameworks */,
 				7EEA446C1777553500CE81F7 /* libstdc++.dylib in Frameworks */,
 				7EEA4468177754A400CE81F7 /* libsqlite3.dylib in Frameworks */,
@@ -170,6 +211,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E84B58617784175001F1B12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E84B58D17784175001F1B12 /* libESDatabaseWrapper.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E84B5931778417B001F1B12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E84B5981778417B001F1B12 /* fmdb */,
+				7E84B59A1778417B001F1B12 /* libFMDB.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7EA7B03D1776C8A500AC6E3D = {
 			isa = PBXGroup;
 			children = (
@@ -232,6 +290,8 @@
 		7EEA44301777528B00CE81F7 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				7E84B5921778417B001F1B12 /* fmdb.xcodeproj */,
+				7E84B58517784175001F1B12 /* ESDatabaseWrapper.xcodeproj */,
 				7EEA44551777538B00CE81F7 /* ObjcScopedGuard.xcodeproj */,
 				7EEA44491777538300CE81F7 /* ESLocale.xcodeproj */,
 				7EEA44331777529F00CE81F7 /* CsvToSqlite.xcodeproj */,
@@ -285,6 +345,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				7E84B59E17784198001F1B12 /* PBXTargetDependency */,
+				7E84B5A017784198001F1B12 /* PBXTargetDependency */,
 				7EEA4466177753B200CE81F7 /* PBXTargetDependency */,
 				7EEA4464177753AB00CE81F7 /* PBXTargetDependency */,
 				7EEA4448177752BB00CE81F7 /* PBXTargetDependency */,
@@ -319,8 +381,16 @@
 					ProjectRef = 7EEA44331777529F00CE81F7 /* CsvToSqlite.xcodeproj */;
 				},
 				{
+					ProductGroup = 7E84B58617784175001F1B12 /* Products */;
+					ProjectRef = 7E84B58517784175001F1B12 /* ESDatabaseWrapper.xcodeproj */;
+				},
+				{
 					ProductGroup = 7EEA444A1777538300CE81F7 /* Products */;
 					ProjectRef = 7EEA44491777538300CE81F7 /* ESLocale.xcodeproj */;
+				},
+				{
+					ProductGroup = 7E84B5931778417B001F1B12 /* Products */;
+					ProjectRef = 7E84B5921778417B001F1B12 /* fmdb.xcodeproj */;
 				},
 				{
 					ProductGroup = 7EEA44561777538B00CE81F7 /* Products */;
@@ -335,6 +405,27 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		7E84B58D17784175001F1B12 /* libESDatabaseWrapper.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libESDatabaseWrapper.a;
+			remoteRef = 7E84B58C17784175001F1B12 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E84B5981778417B001F1B12 /* fmdb */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = fmdb;
+			remoteRef = 7E84B5971778417B001F1B12 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E84B59A1778417B001F1B12 /* libFMDB.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFMDB.a;
+			remoteRef = 7E84B5991778417B001F1B12 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		7EEA443F177752A000CE81F7 /* libCsvToSqlite.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -437,6 +528,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		7E84B59E17784198001F1B12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ESDatabaseWrapper;
+			targetProxy = 7E84B59D17784198001F1B12 /* PBXContainerItemProxy */;
+		};
+		7E84B5A017784198001F1B12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			targetProxy = 7E84B59F17784198001F1B12 /* PBXContainerItemProxy */;
+		};
 		7EEA4448177752BB00CE81F7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CsvToSqlite;
@@ -513,6 +614,8 @@
 					../../lib/ESLocale,
 					../../lib/ObjcScopedGuard/ObjcScopedGuard/,
 					../../lib/CsvToSqlite,
+					../../lib/ESDatabaseWrapper,
+					../../lib/fmdb,
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
@@ -546,6 +649,8 @@
 					../../lib/ESLocale,
 					../../lib/ObjcScopedGuard/ObjcScopedGuard/,
 					../../lib/CsvToSqlite,
+					../../lib/ESDatabaseWrapper,
+					../../lib/fmdb,
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
