@@ -9,6 +9,13 @@
 #endif
 
 #ifdef __OBJC__
+
+#ifdef __cplusplus
+   #import <CsvToSqlite/CsvToSqlite-Framework.h>
+#endif
+
+   #import <ESDatabaseWrapper/ESDatabaseWrapper.h>
+
    #import <UIKit/UIKit.h>
    #import <Foundation/Foundation.h>
 #endif

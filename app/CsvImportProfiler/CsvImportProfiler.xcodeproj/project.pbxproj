@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E2ED54A17784881008DCC9E /* 1-RS-TT-All-SqliteDate.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7E2ED54817784881008DCC9E /* 1-RS-TT-All-SqliteDate.csv */; };
+		7E2ED54B17784881008DCC9E /* 1-RS-TT-All.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7E2ED54917784881008DCC9E /* 1-RS-TT-All.csv */; };
+		7E2ED55017784CB2008DCC9E /* ImportSpeedTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7E2ED54F17784CB2008DCC9E /* ImportSpeedTest.mm */; };
 		7E84B59B17784186001F1B12 /* libESDatabaseWrapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E84B58D17784175001F1B12 /* libESDatabaseWrapper.a */; };
 		7E84B59C1778418C001F1B12 /* libFMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E84B59A1778417B001F1B12 /* libFMDB.a */; };
 		7EA7B04A1776C8A500AC6E3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA7B0491776C8A500AC6E3D /* UIKit.framework */; };
@@ -156,6 +159,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E2ED54817784881008DCC9E /* 1-RS-TT-All-SqliteDate.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "1-RS-TT-All-SqliteDate.csv"; sourceTree = "<group>"; };
+		7E2ED54917784881008DCC9E /* 1-RS-TT-All.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "1-RS-TT-All.csv"; sourceTree = "<group>"; };
+		7E2ED54C177848CE008DCC9E /* ImportSpeedTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportSpeedTest.h; sourceTree = "<group>"; };
+		7E2ED54F17784CB2008DCC9E /* ImportSpeedTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImportSpeedTest.mm; sourceTree = "<group>"; };
 		7E84B58517784175001F1B12 /* ESDatabaseWrapper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ESDatabaseWrapper.xcodeproj; path = ../../lib/ESDatabaseWrapper/ESDatabaseWrapper.xcodeproj; sourceTree = "<group>"; };
 		7E84B5921778417B001F1B12 /* fmdb.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = fmdb.xcodeproj; path = ../../lib/fmdb/fmdb.xcodeproj; sourceTree = "<group>"; };
 		7EA7B0461776C8A500AC6E3D /* CsvImportProfiler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CsvImportProfiler.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,6 +208,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E2ED54717784881008DCC9E /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				7E2ED54817784881008DCC9E /* 1-RS-TT-All-SqliteDate.csv */,
+				7E2ED54917784881008DCC9E /* 1-RS-TT-All.csv */,
+			);
+			name = TestData;
+			path = ../../TestData;
+			sourceTree = "<group>";
+		};
 		7E84B58617784175001F1B12 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +238,7 @@
 		7EA7B03D1776C8A500AC6E3D = {
 			isa = PBXGroup;
 			children = (
+				7E2ED54717784881008DCC9E /* TestData */,
 				7EEA44301777528B00CE81F7 /* lib */,
 				7EA7B04F1776C8A500AC6E3D /* CsvImportProfiler */,
 				7EA7B0481776C8A500AC6E3D /* Frameworks */,
@@ -253,6 +271,8 @@
 			isa = PBXGroup;
 			children = (
 				7EA7B0501776C8A500AC6E3D /* Supporting Files */,
+				7E2ED54C177848CE008DCC9E /* ImportSpeedTest.h */,
+				7E2ED54F17784CB2008DCC9E /* ImportSpeedTest.mm */,
 			);
 			path = CsvImportProfiler;
 			sourceTree = "<group>";
@@ -491,6 +511,8 @@
 				7EA7B05C1776C8A500AC6E3D /* Default.png in Resources */,
 				7EA7B05E1776C8A500AC6E3D /* Default@2x.png in Resources */,
 				7EA7B0601776C8A500AC6E3D /* Default-568h@2x.png in Resources */,
+				7E2ED54A17784881008DCC9E /* 1-RS-TT-All-SqliteDate.csv in Resources */,
+				7E2ED54B17784881008DCC9E /* 1-RS-TT-All.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +524,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EA7B0561776C8A500AC6E3D /* main.m in Sources */,
+				7E2ED55017784CB2008DCC9E /* ImportSpeedTest.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,13 +614,14 @@
 					../../lib/ObjcScopedGuard/ObjcScopedGuard/,
 					../../lib/CsvToSqlite,
 					../../lib/ESDatabaseWrapper,
-					../../lib/fmdb,
+					"../../lib/fmdb/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-all_load";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "../../lib/fmdb/**";
 			};
 			name = Debug;
 		};
@@ -638,13 +662,14 @@
 					../../lib/ObjcScopedGuard/ObjcScopedGuard/,
 					../../lib/CsvToSqlite,
 					../../lib/ESDatabaseWrapper,
-					../../lib/fmdb,
+					"../../lib/fmdb/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-all_load";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "../../lib/fmdb/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -652,6 +677,7 @@
 		7EA7B06D1776C8A500AC6E3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "compiler-default";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../lib\"",
@@ -667,6 +693,7 @@
 		7EA7B06E1776C8A500AC6E3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "compiler-default";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../lib\"",

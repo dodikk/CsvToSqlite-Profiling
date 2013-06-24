@@ -34,6 +34,28 @@
 // If you are using the static library and importing header files manually
 //#import "GHUnit.h"
 
+
+#define PROFILING_ONLY
+
+#ifdef PROFILING_ONLY
+#import "ImportSpeedTest.h"
+
+int main(int argc, char *argv[])
+{
+   @autoreleasepool
+   {
+      ImportSpeedTest* test = [ ImportSpeedTest new ];
+      [ test setUp ];
+      
+      [ test testImportData ];
+      
+      [ test tearDown ];
+      
+      return 0;
+   }
+}
+
+#else
 int main(int argc, char *argv[])
 {
    /*!
@@ -77,3 +99,4 @@ int main(int argc, char *argv[])
       return retVal;
    }
 }
+#endif
