@@ -14,13 +14,9 @@
 		7EA7B04E1776C8A500AC6E3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA7B04D1776C8A500AC6E3D /* CoreGraphics.framework */; };
 		7EA7B0541776C8A500AC6E3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EA7B0521776C8A500AC6E3D /* InfoPlist.strings */; };
 		7EA7B0561776C8A500AC6E3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA7B0551776C8A500AC6E3D /* main.m */; };
-		7EA7B05A1776C8A500AC6E3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA7B0591776C8A500AC6E3D /* AppDelegate.m */; };
 		7EA7B05C1776C8A500AC6E3D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EA7B05B1776C8A500AC6E3D /* Default.png */; };
 		7EA7B05E1776C8A500AC6E3D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EA7B05D1776C8A500AC6E3D /* Default@2x.png */; };
 		7EA7B0601776C8A500AC6E3D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EA7B05F1776C8A500AC6E3D /* Default-568h@2x.png */; };
-		7EA7B0631776C8A500AC6E3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA7B0621776C8A500AC6E3D /* ViewController.m */; };
-		7EA7B0661776C8A500AC6E3D /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EA7B0641776C8A500AC6E3D /* ViewController_iPhone.xib */; };
-		7EA7B0691776C8A500AC6E3D /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EA7B0671776C8A500AC6E3D /* ViewController_iPad.xib */; };
 		7EEA44321777529800CE81F7 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEA44311777529800CE81F7 /* GHUnitIOS.framework */; };
 		7EEA4446177752B600CE81F7 /* libCsvToSqlite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEA443F177752A000CE81F7 /* libCsvToSqlite.a */; };
 		7EEA44611777539C00CE81F7 /* libESLocale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEA44501777538300CE81F7 /* libESLocale.a */; };
@@ -170,15 +166,9 @@
 		7EA7B0531776C8A500AC6E3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7EA7B0551776C8A500AC6E3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7EA7B0571776C8A500AC6E3D /* CsvImportProfiler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CsvImportProfiler-Prefix.pch"; sourceTree = "<group>"; };
-		7EA7B0581776C8A500AC6E3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7EA7B0591776C8A500AC6E3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7EA7B05B1776C8A500AC6E3D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		7EA7B05D1776C8A500AC6E3D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		7EA7B05F1776C8A500AC6E3D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		7EA7B0611776C8A500AC6E3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7EA7B0621776C8A500AC6E3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7EA7B0651776C8A500AC6E3D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		7EA7B0681776C8A500AC6E3D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		7EEA44311777529800CE81F7 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = ../../lib/GHUnitIOS.framework; sourceTree = "<group>"; };
 		7EEA44331777529F00CE81F7 /* CsvToSqlite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CsvToSqlite.xcodeproj; path = ../../lib/CsvToSqlite/CsvToSqlite.xcodeproj; sourceTree = "<group>"; };
 		7EEA44491777538300CE81F7 /* ESLocale.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ESLocale.xcodeproj; path = ../../lib/ESLocale/ESLocale.xcodeproj; sourceTree = "<group>"; };
@@ -262,12 +252,6 @@
 		7EA7B04F1776C8A500AC6E3D /* CsvImportProfiler */ = {
 			isa = PBXGroup;
 			children = (
-				7EA7B0581776C8A500AC6E3D /* AppDelegate.h */,
-				7EA7B0591776C8A500AC6E3D /* AppDelegate.m */,
-				7EA7B0611776C8A500AC6E3D /* ViewController.h */,
-				7EA7B0621776C8A500AC6E3D /* ViewController.m */,
-				7EA7B0641776C8A500AC6E3D /* ViewController_iPhone.xib */,
-				7EA7B0671776C8A500AC6E3D /* ViewController_iPad.xib */,
 				7EA7B0501776C8A500AC6E3D /* Supporting Files */,
 			);
 			path = CsvImportProfiler;
@@ -507,8 +491,6 @@
 				7EA7B05C1776C8A500AC6E3D /* Default.png in Resources */,
 				7EA7B05E1776C8A500AC6E3D /* Default@2x.png in Resources */,
 				7EA7B0601776C8A500AC6E3D /* Default-568h@2x.png in Resources */,
-				7EA7B0661776C8A500AC6E3D /* ViewController_iPhone.xib in Resources */,
-				7EA7B0691776C8A500AC6E3D /* ViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,8 +502,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EA7B0561776C8A500AC6E3D /* main.m in Sources */,
-				7EA7B05A1776C8A500AC6E3D /* AppDelegate.m in Sources */,
-				7EA7B0631776C8A500AC6E3D /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,22 +542,6 @@
 				7EA7B0531776C8A500AC6E3D /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		7EA7B0641776C8A500AC6E3D /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7EA7B0651776C8A500AC6E3D /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		7EA7B0671776C8A500AC6E3D /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7EA7B0681776C8A500AC6E3D /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
