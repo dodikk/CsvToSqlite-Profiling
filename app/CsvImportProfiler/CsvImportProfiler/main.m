@@ -35,7 +35,7 @@
 //#import "GHUnit.h"
 
 
-#define PROFILING_ONLY
+//#define PROFILING_ONLY
 
 #ifdef PROFILING_ONLY
 #import "ImportSpeedTest.h"
