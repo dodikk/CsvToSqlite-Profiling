@@ -1,3 +1,15 @@
 [submodule "lib/CsvToSqlite"]
 	path = lib/CsvToSqlite
 	url = https://github.com/dodikk/CsvToSqlite.git
+[submodule "lib/ESLocale"]
+	path = lib/ESLocale
+	url = https://github.com/dodikk/ESLocale.git
+[submodule "lib/ObjcScopedGuard"]
+	path = lib/ObjcScopedGuard
+	url = https://github.com/dodikk/ObjcScopedGuard.git
+[submodule "lib/ESDatabaseWrapper"]
+	path = lib/ESDatabaseWrapper
+	url = https://github.com/dodikk/ESDatabaseWrapper.git
+[submodule "lib/fmdb"]
+	path = lib/fmdb
+	url = https://github.com/EmbeddedSources/fmdb.git
